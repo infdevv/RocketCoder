@@ -12,4 +12,8 @@ Once it is finished, it will give you a summary of what it did.
 
 ## Usage
 
+Put your Google AI API key in config.txt!
+
 `python RocketCoder.py`
+
+Get a Google AI API key here!: https://makersuite.google.com/app/apikey
