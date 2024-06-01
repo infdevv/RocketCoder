@@ -30,7 +30,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 def generate_plain(query, who):
     prompt = who +": " + query + " Assistant:"
-    response = genai.GenerativeModel("models/gemini-1.0-proh").generate_content(prompt)
+    response = genai.GenerativeModel("models/gemini-1.0-pro").generate_content(prompt)
     if response._done:
         output = ''.join(part.text for part in response._result.candidates[0].content.parts)
         return output
